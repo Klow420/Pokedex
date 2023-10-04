@@ -1,0 +1,67 @@
+body {
+    background-color: antiquewhite;
+}
+li {
+    margin: 15px;
+    border: 2px ;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+li > img {
+    height: 250px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.825);
+    margin: 10px;
+}
+li:first-child {
+    background-color: rgba(129, 200, 22, 0.863);
+}
+li:nth-child(2) {
+    background-color: rgba(129, 200, 22, 0.863);
+}li:nth-child(3) {
+    background-color: rgba(129, 200, 22, 0.863);
+}
+li:nth-child(4) {
+    background-color: rgb(213, 106, 11);
+}
+li:nth-child(5) {
+    background-color: rgb(213, 106, 11);
+}
+li:nth-child(6) {
+    background-color: rgb(213, 106, 11);
+}
+li:nth-child(7) {
+    background-color: rgb(0, 26, 255);
+}
+li:nth-child(8) {
+    background-color: rgb(0, 26, 255);
+}
+li:nth-child(9) {
+    background-color: rgb(0, 26, 255);
+}
+li:nth-child(10) {
+    background-color: rgb(255, 211, 77);
+}
+li:nth-child(11) {
+    background-color: rgb(255, 211, 77);
+}
+li:nth-child(12) {
+    background-color: rgb(255, 211, 77);
+}
+#pokedex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+h1 {
+    text-align: center;
+}
+li:hover {
+    color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
